@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render PageSelector correctly with props 1`] = `
+<ul
+  className="paginator"
+>
+  <li
+    className="current-page paginator-item"
+    onClick={[Function]}
+  >
+    2
+  </li>
+  <li
+    className="paginator-item"
+    onClick={[Function]}
+  >
+    3
+  </li>
+  <li
+    className="paginator-item"
+    onClick={[Function]}
+  >
+    4
+  </li>
+  <li
+    className="paginator-item"
+    onClick={[Function]}
+  >
+    5
+  </li>
+</ul>
+`;

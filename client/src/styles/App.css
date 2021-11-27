@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+
+.tickets {
+  color: #03363D;
+  background: #fff;
+  margin: 20px auto;
+  padding: 10px;
+  width: 600px;
+}
+
+.ticket {
+  border: 1px solid lightgray;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.ticket-header {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.date {
+  color: grey;
+}
+
+.error {
+  background: #fff;
+  width: 400px;
+  padding: 5px;
+  margin: 40px auto;
+  color: red;
+}
+
+
+.paginator {
+  max-width: 500px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+  padding: 5px;
+}
+
+.paginator-item {
+  border: .5px solid lightgray;
+  padding: 10px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.current-page {
+  background: #03363D;
+  color: #fff;
+}
+
+.modal {
+  background: #fff;
+  border: .5px solid lightgray;
+  outline: none;
+  padding: 10px;
+  text-align: center;
+  width: 800px;
+}
+
+.button {
+  background: #03363D;
+  width: 100px;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.ticket-details-description {
+  padding: 15px;
+  text-align: left;
+  margin: 10px;
+}
+
+.loader {
+  margin: 200px auto;
+}
+
+.right {
+  float: right;
+  padding-right: 10px;
+}
+
+.id {
+  padding-right: 5px;
+  color: #fff;
+  padding-left: 5px;
+  background: #03363D;
+}
+
+.status {
+  padding-right: 5px;
+  color: #fff;
+  padding-left: 5px;
+  background: #2a6871;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.App-header {
+  background:  #03363D;
+  color: #ffffff;
+  display: flex;
+  padding: 5px;
+}
+
+.header-title {
+  font-size: 1.5em;
+  margin: 10px auto;
+  padding-top: 5px;
+  width: 500px;
+}
+
+.ReactModalPortal > div {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.ReactModalPortal .ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModalPortal .ReactModal__Overlay--after-open {
+  opacity: 1;
+}

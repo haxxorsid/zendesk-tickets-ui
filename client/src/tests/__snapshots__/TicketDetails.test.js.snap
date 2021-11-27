@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render ticket details correctly with props 1`] = `
+<div
+  className="ReactModal__Overlay"
+  onClick={[Function]}
+  onMouseDown={[Function]}
+  style={
+    Object {
+      "backgroundColor": "rgba(255, 255, 255, 0.75)",
+      "bottom": 0,
+      "left": 0,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    aria-label="Details"
+    aria-modal={true}
+    className="ReactModal__Content modal"
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    onMouseDown={[Function]}
+    onMouseUp={[Function]}
+    role="dialog"
+    style={Object {}}
+    tabIndex="-1"
+  >
+    <div>
+      <h4>
+        velit eiusmod reprehenderit officia cupidatat
+      </h4>
+      <div
+        className="ticket-header"
+      >
+        <p>
+          <span
+            className="status"
+          >
+             Status: 
+            open
+          </span>
+          <span
+            className="right date "
+          >
+            Tue Nov 23 2021
+          </span>
+        </p>
+      </div>
+      <p
+        className="ticket-details-description"
+      >
+        Aute ex sunt culpa ex ea esse sint cupidatat aliqua ex consequat sit reprehenderit. Velit labore proident quis culpa ad duis adipisicing laboris voluptate velit incididunt minim consequat nulla. Laboris adipisicing reprehenderit minim tempor officia ullamco occaecat ut laborum.
+
+Aliquip velit adipisicing exercitation irure aliqua qui. Commodo eu laborum cillum nostrud eu. Mollit duis qui non ea deserunt est est et officia ut excepteur Lorem pariatur deserunt.
+      </p>
+    </div>
+    <button
+      className="button"
+    >
+      Back
+    </button>
+  </div>
+</div>
+`;

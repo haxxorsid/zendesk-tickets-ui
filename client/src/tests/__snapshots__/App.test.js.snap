@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render App correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <h3
+      className="header-title"
+    >
+      Zendesk Tickets UI
+    </h3>
+  </header>
+  <div>
+    <img
+      alt="Loading..."
+      className="loader"
+      src="loader.svg"
+    />
+  </div>
+</div>
+`;

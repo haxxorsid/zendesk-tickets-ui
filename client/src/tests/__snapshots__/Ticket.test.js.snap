@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render ticket row correctly with props 1`] = `
+<div
+  className="ticket"
+  onClick={[Function]}
+>
+  <div
+    className="ticket-header"
+  >
+    <p>
+      <span
+        className="id"
+      >
+         ID: 
+        2
+         
+      </span>
+      <span
+        className="status"
+      >
+        Status: 
+        open
+      </span>
+      <span
+        className="right date"
+      >
+        Tue Nov 23 2021
+      </span>
+    </p>
+    <p>
+      <b>
+        Subject: 
+      </b>
+       
+      <span
+        className="subject"
+      >
+        velit eiusmod reprehenderit officia cupidatat
+      </span>
+    </p>
+  </div>
+</div>
+`;
